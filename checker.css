@@ -1,0 +1,58 @@
+html, body {
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+body * {
+    margin: 10px auto;
+    display: block;
+    outline: none;
+}
+
+#txt, #out {
+    min-width: calc(80% - 20px);
+    min-height: calc(40% - 20px);
+    max-width: calc(80% - 20px);
+    max-height: calc(40% - 20px);
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    border: 2px solid #198ae4;
+    border-radius: 10px;
+    font-family: Arial;
+}
+#out {
+    border: 2px solid #ee1280;
+}
+
+#btn {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(#eee 20%, #ddd 80%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font: 18px Arial;
+    background: linear-gradient(#f2f2f2 20%, #dbdbdb 80%);
+    border-radius: 50%;
+    border: none;
+    color: #999;
+    font-weight: bold;
+}
+button:hover {
+    background: linear-gradient(#dbdbdb 20%, #f2f2f2 80%);
+    color: #198ae4;
+    text-shadow: 0 0 15px #2a9bf5;
+}
+
+censor {
+    background: red;
+    display: inline;
+}
