@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Bad Words Validator">
+        <meta name="keywords" content="github, bad words validator">
+        <meta name="author" content="JFS Animion - https://github.com/AmethystAnimion">
+        <meta name="date" content="2018-05-4" scheme="YYYY-MM-DD">
+        <meta name="revised" content="2018-05-4" scheme="YYYY-MM-DD">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta charset="utf-8">
+        <title>Bad Words Validator</title>
+        <link href='checker.css' rel=stylesheet type='text/css'>
+        <script src='BW_Checker.js'></script>
+    </head>
+    <body>
+        <textarea id="txt"></textarea>
+        <div id='btn'>
+          <button onclick="SearchBW()">VALIDATE</button>
+        </div>
+        <div id="out"></div>
+    </body>
+</html>
